@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Program
 {
     // Liste erstellen und Startwerte hinzufügen
-    static List<(int id, string description)> ListeAufgaben = new List<(int, string)>(){
+    static List<(int id, string beschreibung)> ListeAufgaben = new List<(int, string)>(){
         (1, "Aufstehen"),
         (2, "Zähne putzen"),
         (3, "Duschen"),
@@ -79,7 +79,7 @@ class Program
 
         foreach (var Aufgabe in ListeAufgaben)
         {
-            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.description}");
+            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.beschreibung}");
         }
 
         Console.WriteLine("Drücken Sie eine Taste, um zurück ins Hauptmenü zu gelangen.");
@@ -93,7 +93,7 @@ class Program
 
         foreach (var Aufgabe in ListeAufgaben)
         {
-            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.description}");
+            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.beschreibung}");
         }
 
         // Abfrage ID für Bearbeitung Aufgabe
@@ -110,7 +110,7 @@ class Program
         else
         {
             // Wenn ID gefunden, dann neue Beschreibung eingeben
-            Console.WriteLine($"Aktuelle Beschreibung: {AufgabeBearbeiten.description}");
+            Console.WriteLine($"Aktuelle Beschreibung: {AufgabeBearbeiten.beschreibung}");
             Console.Write("Geben Sie die neue Beschreibung ein: ");
             string NeueBeschreibung = Console.ReadLine();
 
@@ -132,7 +132,7 @@ class Program
 
         foreach (var Aufgabe in ListeAufgaben)
         {
-            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.description}");
+            Console.WriteLine($"ID: {Aufgabe.id}, Beschreibung: {Aufgabe.beschreibung}");
         }
 
         // Abfrage ID für Löschen der Aufgabe
