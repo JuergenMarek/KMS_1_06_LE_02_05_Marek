@@ -88,6 +88,7 @@ class Program
 
     static void AufgabeBearbeiten()
     {
+        // Alle Aufgaben am Bildschirm ausgeben
         Console.Clear();
         Console.WriteLine("Liste aller Aufgaben:");
 
@@ -125,8 +126,6 @@ class Program
     static void AufgabeLoeschen()
     {
         // Alle Aufgaben am Bildschirm ausgeben
-        Console.Clear();
-        Console.WriteLine("Alle Aufgaben:");
         Console.Clear();
         Console.WriteLine("Liste aller Aufgaben:");
 
