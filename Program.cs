@@ -121,7 +121,7 @@ class Program
         Console.WriteLine("Drücken Sie eine Taste, um zurück ins Hauptmenü zu gelangen.");
         Console.ReadLine();
     }
-
+    
     static void AufgabeLoeschen()
     {
         // Alle Aufgaben am Bildschirm ausgeben
