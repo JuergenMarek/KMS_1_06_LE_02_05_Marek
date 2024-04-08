@@ -42,7 +42,7 @@ class Program
                     AufgabeBearbeiten();
                     break;
                 case "4":
-                    DeleteTask();
+                    AufgabeLoeschen();
                     break;
                 case "5":
                     exit = true;
@@ -122,7 +122,7 @@ class Program
         Console.ReadLine();
     }
 
-    static void DeleteTask()
+    static void AufgabeLoeschen()
     {
         // Alle Aufgaben am Bildschirm ausgeben
         Console.Clear();
